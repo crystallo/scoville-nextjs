@@ -1,0 +1,10 @@
+
+@value dark-bg-color: #2b2b2b;
+@value medium-bg-color: #f8f8f8;
+@value light-bg-color: #fff;
+@value primary-font: 'Inter', sans-serif;
+@value accent-font: 'IBM Plex Mono', monospace;
+@value primary-color: #333;
+@value accent-color: #f74636;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600&family=Inter&display=swap');

@@ -1,0 +1,12 @@
+@value vars: "../vars.module.css";
+@value light-bg-color from vars;
+
+.container {
+    @apply flex 
+        flex-1
+        justify-evenly;
+        
+    background-color: light-bg-color;
+    padding: 10rem 0;
+    flex-wrap: wrap;
+}
