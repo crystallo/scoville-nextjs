@@ -52,21 +52,21 @@ export const NavBar = () => {
                     <img src="/logo.svg" alt="Scoville Logo" />
                 </div>
 
-                <div className={styles.menuitems}>
+                <ul className={styles.menuitems}>
                     { NAV_ITEMS.map( (item) => (
-                        <div 
+                        <li 
                             className={styles.menu_item}
                             key={item.text}
                             onMouseOver={ () => setActiveMenu(item.text) }
                             onMouseLeave={ () => setActiveMenu('') }
                         >
                             <NavItem label={item.text} />
-                        </div>
+                        </li>
                         
                     ))}
 
                     <a className={styles.button}> Inquiry </a>
-                </div>
+                </ul>
             </nav>
 
             <div 
