@@ -1,13 +1,16 @@
+import styles from '@/styles/home/Overview.module.css';
+
 import { overviewCards } from "@/data/overviewCards"
 import { OverviewCard } from "./OverviewCard"
 
 export const Overview = () => {
     return (
-        <section>
-            <div />
-            <h1>Overview</h1>
-            <h2>Your digital solution partner of choice</h2>
-            <div>
+        <section className={styles.container}>
+            <div className={styles.title_decor}/>
+            <h1 className={styles.title}>Overview</h1>
+            <h2 className={styles.subtitle}>Your digital solution partner of choice</h2>
+            <img className={styles.logo} src="/service-header-logo.svg" alt="Cone geometric shape denoting 3 areas of services" />
+            <div className={styles.cards}>
                 { overviewCards.map( (service) => (
                     <OverviewCard service={service} />
                 )) }

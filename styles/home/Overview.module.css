@@ -1,0 +1,40 @@
+@value vars: "../vars.module.css";
+@value accent-color, accent-font from vars;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_decor {
+    background-color: accent-color;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    margin-top: 10rem;
+}
+
+.title {
+    font-family: accent-font;
+    color: accent-color;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.subtitle {
+    font-family: accent-font;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 2;
+}
+
+.logo {
+    margin: 2rem 0;
+}
+
+.cards {
+    display: flex;
+    flex: 1 1 0;
+    margin: 0 5rem;
+}

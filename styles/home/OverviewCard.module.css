@@ -1,0 +1,37 @@
+@value vars: "../vars.module.css";
+@value accent-color, accent-font, secondary-color from vars;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.logo {
+    height: 30%;
+    margin: 2rem;
+}
+
+.type {
+    color: accent-color;
+    font-family: accent-font;
+    font-size: 1.2rem;
+}
+
+.title {
+    font-family: accent-font;
+    font-size: 1.8rem;
+    margin: 0.8rem 0;
+}
+
+.description {
+    color: secondary-color;
+    margin-top: 2rem;
+}
+
+.bar {
+    height: 4rem;
+    background-color: #000;
+    width: 1px;
+}
