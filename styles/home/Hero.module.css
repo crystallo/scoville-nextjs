@@ -1,0 +1,39 @@
+@value vars: "../vars.module.css";
+@value medium-bg-color, light-bg-color, primary-color, secondary-color, accent-color, accent-font from vars;
+
+.container {
+    background-color: medium-bg-color;
+    min-height: fit-content;
+    overflow: hidden;
+    position: relative;
+    z-index: -5;
+}
+
+.background {
+    position: absolute;
+    right: -10rem;
+    z-index: -1;
+}
+
+.text_box {
+    max-width: calc(100% - 650px);
+    margin: 7rem 5rem;
+}
+
+.head {
+    color: accent-color;
+    font-family: accent-font;
+}
+
+.title {
+    font-family: accent-font;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin: 2rem 0 4rem;
+    line-height: 1.2;
+}
+
+.caption {
+
+}
+
