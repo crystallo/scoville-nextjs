@@ -3,6 +3,7 @@ import { ConsultingService } from '@/components/home/ConsultingService';
 import { Core } from '@/components/home/Core';
 import { Hero } from '@/components/home/Hero';
 import { Overview } from '@/components/home/Overview';
+import { ProductService } from '@/components/home/ProductService';
 import { NavBar } from '@/components/nav/NavBar';
 
 
@@ -16,6 +17,7 @@ export default function Home() {
         <Core />
         <Overview />
         <ConsultingService />
+        <ProductService />
       </main>
     </>
   )
