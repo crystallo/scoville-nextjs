@@ -1,11 +1,12 @@
 "use client";
 
+import styles from "@/styles/nav/NavBar.module.css";
 import { useState } from 'react';
 import { NavItem } from "./NavItem"
-import styles from "@/styles/nav/NavBar.module.css";
 import { MenuConsulting } from './MenuConsulting';
 import { MenuProducts } from './MenuProducts';
 import { MenuApproach } from './MenuApproach';
+import { MenuCaseStudy } from './MenuCaseStudy';
 
 const NAV_ITEMS = [
     { text: 'Consulting' },
@@ -27,6 +28,8 @@ export const NavBar = () => {
                 return <MenuProducts />;
             case "Our Approach":
                 return <MenuApproach />;
+            case "Case Study":
+                return <MenuCaseStudy />;
             default:
                 return null;
         }
