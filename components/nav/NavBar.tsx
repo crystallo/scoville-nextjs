@@ -36,7 +36,7 @@ export const NavBar = () => {
     };
 
     return (
-        <div className={styles.container}>
+        <header className={styles.container}>
             <div className={styles.banner}>
                 <div className={styles.title}>Enterprise Digital Solutions</div>
 
@@ -76,7 +76,7 @@ export const NavBar = () => {
             >
                 {renderSubMenu()}
             </div>
-        </div>
+        </header>
     )
 }
 

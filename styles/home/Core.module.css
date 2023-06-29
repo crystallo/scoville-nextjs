@@ -1,0 +1,54 @@
+@value vars: "../vars.module.css";
+@value dark-bg-color, primary-color, secondary-color, light-color, accent-font from vars;
+
+.container {
+    background: linear-gradient(90deg, #393939, #7d7d7d);
+    min-height: fit-content;
+    overflow: hidden;
+    position: relative;
+    z-index: -5;
+    font-family: accent-font;
+    color: light-color;
+}
+
+.background {
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.background_img {
+    transform: scale(.65);
+    transition: scale .3s ease-in-out;
+}
+
+.background_img:hover {
+    opacity: 0.5;
+    transform: scale(.7);
+}
+
+.text_box {
+    max-width: max-content;
+    margin: 7rem 5rem;
+}
+
+.head {
+    font-weight: 300;
+    margin-bottom: 4rem;
+}
+
+.head:hover {
+    color: accent-color;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.caption {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-top: 3rem;
+}

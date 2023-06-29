@@ -7,5 +7,6 @@
 @value primary-color: #333;
 @value accent-color: #f74636;
 @value secondary-color: #a9a9a9;
+@value light-color: #fff;
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600&family=Inter&display=swap');
