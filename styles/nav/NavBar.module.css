@@ -55,28 +55,14 @@
     border-radius: 8px;
     border: 2px solid #fff;
     padding: 0.5rem;
+    margin-right: 1rem;
 }
 
 .menu_item {
-    padding: 1.5rem 1rem;
-    margin: 0 .5rem;
+    padding: 1.5rem;
 }
 
 .sub_menu {
-    width: 80vw;
+    width: 75vw;
     margin: auto;
-    animation-duration: 2s;
-    animation-name: fadein;
-}
-
-@keyframes fadein {
-    from {
-        opacity: 20%;
-        transform: translateY(-5%);
-    }
-
-    to {
-        opacity: 100%;
-        transform: translateY(0);
-    }
 }
