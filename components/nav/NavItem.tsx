@@ -1,4 +1,4 @@
-import styles from '@/styles/shared/NavItem.module.css';
+import styles from '@/styles/nav/NavItem.module.css';
 
 interface NavItemProps {
     label: string;

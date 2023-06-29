@@ -2,8 +2,9 @@
 @value dark-bg-color, light-bg-color, primary-color, secondary-color, accent-font from vars;
 
 .container {
-    display: flex;
-    justify-content: space-between;
+    z-index: 5;
+    position: fixed;
+    width: 100%;
 }
 
 .banner {
@@ -33,18 +34,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem;
 }
 
 .logo {
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
 }
 
 .menuitems {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem;
 }
 
 .button {
@@ -56,4 +55,28 @@
     border-radius: 8px;
     border: 2px solid #fff;
     padding: 0.5rem;
+}
+
+.menu_item {
+    padding: 1.5rem 1rem;
+    margin: 0 .5rem;
+}
+
+.sub_menu {
+    width: 80vw;
+    margin: auto;
+    animation-duration: 2s;
+    animation-name: fadein;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 20%;
+        transform: translateY(-5%);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0);
+    }
 }
