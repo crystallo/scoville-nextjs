@@ -1,0 +1,58 @@
+@value vars: "../vars.module.css";
+@value dark-bg-color, light-bg-color, accent-font, light-color, gray-color from vars;
+
+.container {
+    background-color: dark-bg-color;
+    font-family: accent-font;
+    color: light-color;
+    font-weight: 300;
+    padding: 2.5rem;
+    position: relative;
+    z-index: -5;
+}
+
+.title {
+    margin-top: 3rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0;
+    font-size: 0.9rem;
+}
+
+.row {
+    display: flex;
+    padding: 0.5rem 0;
+}
+
+.header {
+    color: gray-color;
+    min-width: 150px;
+}
+
+.addressheader {
+    color: gray-color;
+    margin-right: 0.5rem;
+}
+
+.address {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+.background {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
