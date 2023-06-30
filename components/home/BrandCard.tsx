@@ -13,7 +13,7 @@ export const BrandCard = ({ brand, idx } : BrandCardProps) => {
     };
 
     return (
-        <div className={`${getContainerClassName(idx)}`}>
+        <div className={`${getContainerClassName(idx)}`} data-test="brand-card">
             <div className={`bar ${styles.bar}`}></div>
             <h1 className={styles.title}>{brand.name}</h1>
 
