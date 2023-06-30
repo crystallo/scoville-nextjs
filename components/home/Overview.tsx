@@ -12,7 +12,7 @@ export const Overview = () => {
             <img className={styles.logo} src="/service-header-logo.svg" alt="Cone geometric shape denoting 3 areas of services" />
             <div className={styles.cards}>
                 { overviewCards.map( (service) => (
-                    <OverviewCard service={service} />
+                    <OverviewCard service={service} key={service.title} />
                 )) }
             </div>
         </section>
