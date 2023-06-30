@@ -2,7 +2,7 @@ import styles from '@/styles/home/Hero.module.css';
 
 export const Hero = () => {
     return (
-        <section className={styles.container}>
+        <section className={styles.container} data-test="hero-section">
             <div className={styles.background}>
                 <img src="/hero-background.webp" />
             </div>
