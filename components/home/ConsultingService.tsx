@@ -2,7 +2,7 @@ import styles from '@/styles/home/ConsultingService.module.css';
 
 export const ConsultingService = () => {
     return (
-        <section className={styles.container}>
+        <section className={styles.container} data-test="consulting-service-section">
             <div className={styles.title_decor}/>
             <h1 className={styles.title}>Consulting Service</h1>
             <h2 className={styles.subtitle}>Solving your most challenging business problems</h2>

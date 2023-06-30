@@ -2,7 +2,7 @@ import styles from '@/styles/home/Core.module.css';
 
 export const Core = () => {
     return (
-        <section className={styles.container}>
+        <section className={styles.container} data-test="core-section">
             <div className={styles.background}>
                 <img className={styles.background_img} src="/core-background.webp" alt="Geometric shape" />
             </div>
