@@ -2,7 +2,7 @@ import styles from '@/styles/home/Footer.module.css';
 
 export const Footer = () => {
     return (
-        <footer className={styles.container}>
+        <footer className={styles.container} data-test="footer">
             <h1 className={styles.title}>Scoville Co., Ltd</h1>
 
             <div className={styles.table}>

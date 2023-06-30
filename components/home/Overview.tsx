@@ -5,7 +5,7 @@ import { OverviewCard } from "./OverviewCard"
 
 export const Overview = () => {
     return (
-        <section className={styles.container}>
+        <section className={styles.container} data-test="overview-section">
             <div className={styles.title_decor}/>
             <h1 className={styles.title}>Overview</h1>
             <h2 className={styles.subtitle}>Your digital solution partner of choice</h2>

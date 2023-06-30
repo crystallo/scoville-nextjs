@@ -4,7 +4,7 @@ import { ProductServiceCard } from './ProductServiceCard';
 
 export const ProductService = () => {
     return (
-        <section className={styles.container}>
+        <section className={styles.container} data-test="product-service-section">
             <div className={styles.header}>
                 <div className={styles.title_decor} />
                 <h1 className={styles.title}>Product Service</h1>

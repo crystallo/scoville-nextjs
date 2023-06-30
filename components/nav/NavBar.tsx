@@ -36,7 +36,7 @@ export const NavBar = () => {
     };
 
     return (
-        <header className={styles.container}>
+        <header className={styles.container} data-test="nav-bar">
             <div className={styles.banner}>
                 <div className={styles.title}>Enterprise Digital Solutions</div>
 
