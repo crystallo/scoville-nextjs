@@ -15,7 +15,7 @@ export const ProductService = () => {
                 <div className={styles.background} />
                 <div className={styles.cards}>
                     { productServiceCards.map( (product, index) => (
-                        <ProductServiceCard product={product} up={ index%2 ? true : false}/>
+                        <ProductServiceCard product={product} up={ index%2 ? true : false} key={product.title} />
                     ))}
                 </div>
             </div>

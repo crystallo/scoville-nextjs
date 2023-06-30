@@ -6,7 +6,7 @@ export const Brands = () => {
     return (
         <section className={styles.container} data-test="brands-section">
             { brandCards.map((brand, idx) => (
-                <BrandCard brand={brand} idx={idx} />
+                <BrandCard brand={brand} idx={idx} key={brand.name} />
             )) }
         </section>
     );
