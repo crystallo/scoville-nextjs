@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "start:static": "next build && npx serve@latest out",
     "lint": "next lint",
     "cypress": "cypress open",
     "test": "bash scripts/cypress.sh"

@@ -1,6 +1,6 @@
 import { brandCards } from "@/data/brandCards";
 import { BrandCard } from "./BrandCard";
-import styles from '@/styles/home/Brand.module.css';
+import styles from '@/styles/home/Brands.module.css';
 
 export const Brands = () => {
     return (
