@@ -2,11 +2,8 @@
 @value light-bg-color from vars;
 
 .container {
-    @apply flex 
-        flex-1
-        justify-evenly;
-        
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     background-color: light-bg-color;
     padding: 10rem 0;
-    flex-wrap: wrap;
 }
