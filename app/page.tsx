@@ -1,17 +1,14 @@
-import { Brands } from '@/components/home/Brands';
-import { ConsultingService } from '@/components/home/ConsultingService';
-import { Core } from '@/components/home/Core';
-import { Footer } from '@/components/home/Footer';
-import { Hero } from '@/components/home/Hero';
-import { Overview } from '@/components/home/Overview';
-import { ProductService } from '@/components/home/ProductService';
-import { NavBar } from '@/components/nav/NavBar';
+import { Brands } from '@/app/components/home/Brands';
+import { ConsultingService } from '@/app/components/home/ConsultingService';
+import { Core } from '@/app/components/home/Core';
+import { Hero } from '@/app/components/home/Hero';
+import { Overview } from '@/app/components/home/Overview';
+import { ProductService } from '@/app/components/home/ProductService';
 
 
 export default function Home() {
   return (
     <>
-      <NavBar />
       <main>
         <Hero />
         <Brands />
@@ -20,7 +17,6 @@ export default function Home() {
         <ConsultingService />
         <ProductService />
       </main>
-      <Footer />
     </>
   )
 }

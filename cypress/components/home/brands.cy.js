@@ -1,4 +1,4 @@
-import { Brands } from '@/components/home/Brands';
+import { Brands } from '@/app/components/home/Brands';
 import { brandCards } from '../../fixtures/brandCards';
 
 describe('<Brands />', () => {
