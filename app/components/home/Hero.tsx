@@ -5,6 +5,7 @@ export const Hero = () => {
     <section
       className="flex justify-center px-4 py-16 mt-48 relative overflow-y-clip min-h-max bg-neutral-100 -z-20
       [ sm:px-12 ]
+      [ md:mt-16 md:py-24 ]
       "
       data-test="hero-section"
     >
@@ -16,7 +17,7 @@ export const Hero = () => {
         "
       >
         <Image
-          width={700}
+          width={750}
           height={200}
           alt="Background image"
           src="/hero-background.webp"
@@ -26,16 +27,16 @@ export const Hero = () => {
       <div
         className="
             [ sm:mr-16 ]
-            [ md:max-w-[600px] md:mr-64 ]
+            [ md:max-w-[650px] md:mr-96 ]
         "
       >
-        <h1 className="text-sm font-medium text-primary-1 font-header">
+        <h1 className="text-sm font-normal text-primary-1 font-header">
           Enterprise Digital Solutions
         </h1>
-        <h2 className="my-12 text-3xl font-semibold font-header tracking-wide [ sm:text-5xl ] [ md:leading-tight ]">
+        <h2 className="my-12 text-3xl font-medium font-header tracking-wide [ sm:text-5xl ] [ md:leading-none md:text-6xl md:my-16 ]">
           Digital Solutions Empowering the Workforce.
         </h2>
-        <p className="text-base tracking-wide text-md">
+        <p className="text-base font-light tracking-wide text-md [ md:leading-relaxed ] ">
           We integrate strategy, design and technical development to create
           desirable products and services that delight our target audiences.{" "}
           <br />

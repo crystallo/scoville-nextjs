@@ -21,12 +21,12 @@ export const BrandCard = ({ brand, idx, key }: BrandCardProps) => {
           duration: 0.3,
         },
       }}
-      className="relative px-4 py-8 overflow-hidden text-sm text-center align-middle bg-white shadow-lg md:py-12 rounded-xl border-1 shaodw-slate-300"
+      className="relative px-4 py-8 overflow-hidden text-sm text-center align-middle bg-white shadow-xl md:py-12 rounded-xl border-1 shaodw-slate-700"
       key={key}
       data-test="brand-card"
     >
       <div className="bar absolute h-[5px] w-full top-0 left-0"></div>
-      <h1 className="font-bold font-header">{brand.name}</h1>
+      <h1 className="text-lg font-bold font-header">{brand.name}</h1>
 
       <style jsx>{`
         .bar {
