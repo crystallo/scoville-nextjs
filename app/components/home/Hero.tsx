@@ -3,16 +3,17 @@ import Image from "next/image";
 export const Hero = () => {
   return (
     <section
-      className="px-4 relative overflow-y-clip min-h-max bg-neutral-100 -z-20
-      [ sm:px-12 py-16 mt-48 ]
+      className="flex justify-center px-4 py-16 mt-48 relative overflow-y-clip min-h-max bg-neutral-100 -z-20
+      [ sm:px-12 ]
       "
       data-test="hero-section"
     >
       {/* Background */}
       <div
         className="
-        hidden
-      [ sm:flex absolute top-0 right-0 -z-10 ]"
+            hidden absolute top-0 right-0 -z-10 
+            [ sm:flex ]
+        "
       >
         <Image
           width={700}
@@ -24,12 +25,14 @@ export const Hero = () => {
       {/* Content */}
       <div
         className="
-      [ sm:mr-16 md:max-w-[600px] ]"
+            [ sm:mr-16 ]
+            [ md:max-w-[600px] md:mr-64 ]
+        "
       >
         <h1 className="text-sm font-medium text-primary-1 font-header">
           Enterprise Digital Solutions
         </h1>
-        <h2 className="my-12 text-3xl font-semibold leading-tight sm:text-5xl font-header">
+        <h2 className="my-12 text-3xl font-semibold font-header tracking-wide [ sm:text-5xl ] [ md:leading-tight ]">
           Digital Solutions Empowering the Workforce.
         </h2>
         <p className="text-base tracking-wide text-md">
