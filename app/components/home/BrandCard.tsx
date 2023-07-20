@@ -16,7 +16,10 @@ export const BrandCard = ({ brand, idx, key }: BrandCardProps) => {
     <motion.div
       whileHover={{
         scale: 1.06,
-        rotate: idx % 2 ? 3 : -3,
+        rotate: idx % 2 ? 2 : -2,
+        transition: {
+          duration: 0.3,
+        },
       }}
       className="relative px-4 py-8 overflow-hidden text-sm text-center align-middle bg-white shadow-lg md:py-12 rounded-xl border-1 shaodw-slate-300"
       key={key}
