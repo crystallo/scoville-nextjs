@@ -4,7 +4,7 @@ import { BrandCard } from "./BrandCard";
 export const Brands = () => {
   return (
     <section
-      className="grid grid-cols-3 gap-4 mx-4 my-16 lg:gap-12 lg:grid-cols-6"
+      className="grid grid-cols-3 gap-4 mx-4 my-16 md:gap-8 lg:gap-12 lg:grid-cols-6"
       data-test="brands-section"
     >
       {brandCards.map((brand, idx) => (
